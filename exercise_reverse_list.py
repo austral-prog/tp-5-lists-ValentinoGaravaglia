@@ -1,13 +1,5 @@
-# Ejercicio 8: Invertir una lista
-
 def reverse_list(lista):
-    """
-    Retorna una nueva lista con los elementos en orden inverso.
 
-    Args:
-        lista: Una lista de elementos
+    return lista[::-1]
 
-    Returns:
-        Una nueva lista con los elementos en orden inverso
-    """
-    pass  # Reemplazar con tu implementación
+

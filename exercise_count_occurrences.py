@@ -1,14 +1,9 @@
-# Ejercicio 7: Contar ocurrencias de un elemento
-
 def count_occurrences(lista, elemento):
-    """
-    Cuenta cuántas veces aparece un elemento en la lista.
 
-    Args:
-        lista: Una lista de elementos
-        elemento: El elemento a buscar
+    if len(lista) == 0:
+        return 0
 
-    Returns:
-        Un entero con la cantidad de veces que aparece el elemento
-    """
-    pass  # Reemplazar con tu implementación
+    else:
+        return lista.count(elemento)
+
+
